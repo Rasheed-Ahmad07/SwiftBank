@@ -391,7 +391,7 @@ const handleAccountClosure = function (e) {
 
 const handleSort = function (e) {
   e.preventDefault();
-  displayMovements(currentAccount.movements, !sorted);
+  displayMovements(currentAccount, !sorted);
   sorted = !sorted;
 };
 
